@@ -1,26 +1,46 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
+const Colors = {
+  // Основной акцентный цвет — кнопки, ссылки, активные элементы интерфейса
+  primary: '#2A7BF4',
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+  // Дополнительный цвет — может использоваться для выделения, графиков, подчёркиваний
+  secondary: '#F4A261',
 
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+  // Абсолютный чёрный — для текста или фона в тёмной теме
+  black: '#000000',
+
+  // Чёрный средней интенсивности — основной текст или фон в светлой теме
+  mediumBlack: '#1A1A1A',
+
+  // Смягчённый чёрный — для второстепенного текста, иконок или карточек
+  softBlack: '#2E2E2E',
+
+  // Абсолютный белый — фон или текст в тёмной теме
+  white: '#FFFFFF',
+
+  // Светло-серый — фон для карточек, экранов, инпутов
+  lightGray: '#F0F0F0',
+
+  // Серый — границы, иконки, разделители
+  gray: '#C4C4C4',
+
+  // Тёмно-серый — второстепенный или деактивированный текст
+  darkGray: '#8A8A8A',
+
+  // Зелёный — цвет успешных действий (уведомления, статусы)
+  success: '#4CAF50',
+
+  // Красный — ошибки, недопустимые действия, инпуты с ошибками
+  error: '#FF4C4C',
+
+  // Жёлтый — предупреждения, внимание пользователя
+  warning: '#FFC107',
+
+  // Общий фон приложения — адаптируется под тему
+  background: '#FFFFFF',
+
+  // Фон карточек, инпутов, списков — чуть отличен от основного фона
+  card: '#FAFAFA',
 };
+
+export type ColorType = keyof typeof Colors;
+export const colors = Colors;
