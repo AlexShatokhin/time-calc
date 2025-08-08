@@ -1,9 +1,9 @@
 import CalculationLayout from '@/components/CalculationLayout'
 import Typo from '@/components/Typo'
-import { colors } from '@/constants/colors'
+import { colors } from '@/constants/Colors'
 import { formatDisplayTime } from '@/utils/formatters'
 import { router, useLocalSearchParams } from 'expo-router'
-import { Check } from 'phosphor-react-native'
+import { CheckIcon } from 'phosphor-react-native'
 import React, { useEffect, useState } from 'react'
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 import { verticalScale } from 'react-native-size-matters'
@@ -80,7 +80,7 @@ const ConvertTimeScreen = () => {
 				</Typo>
 				<TouchableOpacity style={styles.checkboxContainer} onPress={toggleCheckbox}>
 					<View style={[styles.checkbox, isChecked && styles.checkboxChecked]}>
-						{isChecked && <Check size={verticalScale(16)} color={colors.white} />}
+						{isChecked && <CheckIcon size={verticalScale(16)} color={colors.white} />}
 					</View>
 					<Typo align='center' weight='400' fontSize={16}>+30 минут обеда</Typo>
 				</TouchableOpacity>

@@ -1,4 +1,4 @@
-import { colors } from '@/constants/colors'
+import { colors } from '@/constants/Colors'
 import { StatusBar } from 'expo-status-bar'
 import React, { FC } from 'react'
 import { Dimensions, Platform, StyleSheet, View } from 'react-native'

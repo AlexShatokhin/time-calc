@@ -1,7 +1,7 @@
 import Button from '@/components/Button'
 import Header from "@/components/Header"
 import ScreenWrapper from '@/components/ScreenWrapper'
-import { colors } from '@/constants/colors'
+import { colors } from '@/constants/Colors'
 import { router } from 'expo-router'
 import React, { FC } from 'react'
 import { StyleSheet, View } from 'react-native'

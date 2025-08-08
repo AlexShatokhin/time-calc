@@ -1,7 +1,7 @@
 import CalculationLayout from '@/components/CalculationLayout'
 import Input from '@/components/Input'
 import Typo from '@/components/Typo'
-import { colors } from '@/constants/colors'
+import {colors} from "@/constants/Colors"
 import { addTime, convertDecimalToTime, subtractTime, validateHours, validateMinutes } from '@/utils'
 import { formatTimeWithDeclension } from '@/utils/formatters'
 import { useLocalSearchParams } from 'expo-router'

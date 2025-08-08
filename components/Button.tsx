@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { StyleSheet, TextStyle, TouchableOpacity, ViewStyle } from "react-native";
 import { verticalScale } from "react-native-size-matters";
-import { colors } from "../constants/colors";
+import { colors } from "../constants/Colors";
 import Typo from "./Typo";
 
 type ButtonProps = {

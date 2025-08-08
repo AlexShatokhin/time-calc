@@ -1,3 +1,4 @@
+import "expo-router/entry"
 import CalculationLayout from '@/components/CalculationLayout'
 import Input from '@/components/Input'
 import { filterTimeInput, normalizeTimeString, validateTimeFormat, validateWorkTime } from '@/utils'

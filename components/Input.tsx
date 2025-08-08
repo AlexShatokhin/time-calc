@@ -1,4 +1,4 @@
-import { colors } from '@/constants/colors'
+import { colors } from '@/constants/Colors'
 import React, { useState } from 'react'
 import { StyleSheet, View } from 'react-native'
 import { TextInput } from 'react-native-gesture-handler'

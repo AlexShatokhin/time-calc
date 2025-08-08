@@ -1,5 +1,5 @@
 
-import { colors } from '@/constants/colors';
+import { colors } from '@/constants/Colors';
 import React, { FC } from 'react';
 import { Text, TextStyle } from 'react-native';
 import { verticalScale } from 'react-native-size-matters';
