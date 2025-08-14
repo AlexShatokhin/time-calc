@@ -1,6 +1,8 @@
 import { colors } from '@/constants/Colors';
+import { router } from 'expo-router';
+import { InfoIcon } from 'phosphor-react-native';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import BackButton from './BackButton';
 import Typo from './Typo';
 
@@ -12,15 +14,20 @@ type HeaderProps = {
 const Header = ({ canGoBack, text }: HeaderProps) => {
   return (
     <View style={styles.container}>
-		{canGoBack && (
+		{canGoBack ? (
 			<View style={styles.backButtonContainer}>
 				<BackButton />
 			</View>
-		)}
+		) : <View style={styles.spacer} />}
 		<View style={styles.titleContainer}>
 			<Typo align="center" fontSize={17} weight='600' color={colors.mediumBlack}>{text}</Typo>
 		</View>
-		{canGoBack && <View style={styles.spacer} />}
+		<TouchableOpacity onPress={() => router.push("/about")}>
+			<InfoIcon
+				size={30} 
+				color={colors.mediumBlack} />
+		</TouchableOpacity>
+
     </View>
   )
 }
