@@ -45,7 +45,7 @@ yarn start
 
 ![Screenshot 1](./assets/images/photo_2026-04-30_19-23-30.jpg)
 ![Screenshot 2](./assets/images/photo_2026-04-30_19-14-46.jpg)
-![Screenshot 3](./assets/images/photo_2026-04-30_19-14-46 (2).jpg)
+![Screenshot 3](./assets/images/photo_2026-04-30_19-14-46(2).jpg)
 
 
 
