@@ -42,14 +42,10 @@ yarn start
 
 ## Screenshots & Demo Video
 
-<!-- Add your screenshots below. For example: -->
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
 
-<!-- Add a link to your demo video here. For example: -->
-[![Demo Video](screenshots/demo-thumbnail.png)](https://link-to-your-demo-video.com)
+![Screenshot 1](./assets/images/photo_2026-04-30_19-23-30.jpg)
+![Screenshot 2](./assets/images/photo_2026-04-30_19-14-46.jpg)
+![Screenshot 3](./assets/images/photo_2026-04-30_19-14-46 (2).jpg)
 
----
 
-**Contributions are welcome!**  
-Feel free to open issues or submit pull requests to improve Time Calc.
+
